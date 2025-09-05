@@ -1,8 +1,5 @@
 # CYHI-QuickTeams-WeTriedOurBest
 
-
-### Frontend 
-
 # Screens 
  - HomePage
  - User Homepage 
