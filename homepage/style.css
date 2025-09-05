@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+.navbar {
+  background: #6c63ff;
+  padding: 1rem;
+  color: white;
+}
+
+.hero {
+  padding: 3rem;
+  background: linear-gradient(to right, #6c63ff, #3f3d56);
+  color: white;
+}
+
+.hero button {
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  gap: 1rem;
+}
+
+form input, form select, form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#teamList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.player-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  width: 180px;
+}

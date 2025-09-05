@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Matchmaking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>TeamUp</h1>
+  </nav>
+
+  <section class="hero">
+    <h2>Find Your Perfect Team</h2>
+    <p>Balanced teams better results.</p>
+    <button id="createProfileBtn">Create Profile</button>
+  </section>
+
+  <!-- Profile Creation -->
+  <section id="profileForm" class="hidden">
+    <h2>Create Your Profile</h2>
+    <form id="playerForm">
+      <label>Username</label>
+      <input type="text" id="username" required>
+
+      <label>Level</label>
+      <input type="number" id="level" min="1" max="100" required>
+
+      <label>Rank Points</label>
+      <input type="number" id="rank" min="0" required>
+
+      <label>Interests</label>
+      <select id="interests">
+        <option value="GameDev">Game Development</option>
+        <option value="AI">Artificial Intelligence</option>
+        <option value="WebDev">Web Development</option>
+   
+      </select>
+
+      <label>Skillset</label>
+      <select id="skill">
+        
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        <option value="Designer">Designer</option>
+      </select>
+
+      <button type="submit">Save Profile</button>
+    </form>
+  </section>
+
+  <!-- Team Result -->
+  <section id="teamSection" class="hidden">
+    <h2>Your Matched Team</h2>
+    <div id="teamList"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
